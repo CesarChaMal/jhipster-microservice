@@ -1,0 +1,51 @@
+https://www.baeldung.com/jhipster-microservices
+
+yo jhipster
+Microservice application
+Sprinh Webflux yes
+base name  pos
+port 9091
+java package com.pos.app
+jhipster registry
+jwt authentication
+SQL(H2, MySql, Postgresql, Mssql)
+production mysql
+development h2 in memory persistence
+Maven
+Extra tech
+Elastisearch, Kafka
+Internationalization yes
+English native
+others Polish, Spanish
+Extra Cucumber
+
+./mvnw
+
+App	Instance ID	Status
+POS	pos:4ef435ceb3a50e78f5040803c64cc701	UP
+
+yo jhipster
+Microservice gateway
+Sprinh Webflux yes
+base name  gateway
+port 9092
+java package com.gateway
+jhipster registry
+jwt authentication
+SQL(H2, MySql, Postgresql, Mssql)
+production mysql
+development h2 in memory persistence
+Maven
+Extra tech
+Elastisearch, Kafka
+Framework for client Angular
+Bootswatch theme Cyborg
+Bootswatch variant navbar Dark
+Internationalization yes
+English native
+others Polish, Spanish
+Extra Cucumber, Protractor
+
+yo jhipster:entity car
+
+

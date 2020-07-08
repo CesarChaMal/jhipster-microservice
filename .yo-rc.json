@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.pos.app",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "microservice",
+    "baseName": "pos",
+    "packageName": "com.pos.app",
+    "packageFolder": "com/pos/app",
+    "serverPort": "9091",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YjNjYTk0MWUxMmRkYjk2MzhiYWVmYmM1OWVlZGU4NTgwZDIyZTQwYTgyOTIyOTM3MjAyZjVhYmQ2MTVhOTg1NjlkMDA2MTIzODE1NTdiOGU2NTQ2N2Y1MThhYzU0YzExYmMwZTVjYzEzYWNhZWY5NWNkZTY5YWU1N2RhNzE3NDk=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1594193915276,
+    "testFrameworks": ["cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": ["en", "pl", "es"],
+    "blueprints": [],
+    "reactive": true,
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

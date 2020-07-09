@@ -1,5 +1,23 @@
 https://www.baeldung.com/jhipster-microservices
 
+projects involved
+
+microservice registry
+git@github.com:CesarChaMal/jhipster-registry.git
+
+microservice app 1
+git@github.com:CesarChaMal/jhipster-microservice.git
+
+microservice app 2
+git@github.com:CesarChaMal/jhipster-microservice2.git
+
+microservice gateway
+git@github.com:CesarChaMal/jhipster-microservice-gateway.git
+
+
+npm install -g yo
+npm install -g generator-jhipster
+
 yo jhipster
 Microservice application
 Sprinh Webflux yes
@@ -25,10 +43,32 @@ App	Instance ID	Status
 POS	pos:4ef435ceb3a50e78f5040803c64cc701	UP
 
 yo jhipster
+Microservice application
+Sprinh Webflux yes
+base name test
+port 9089
+java package com.test.app
+jhipster registry
+jwt authentication
+SQL(H2, MySql, Postgresql, Mssql)
+production mysql
+development h2 in memory persistence
+Maven
+Extra tech
+Elastisearch, Kafka
+Internationalization yes
+English native
+others Polish, Spanish
+Extra Cucumber
+
+./mvnw
+
+
+yo jhipster
 Microservice gateway
 Sprinh Webflux yes
 base name  gateway
-port 9092
+port 9090
 java package com.gateway
 jhipster registry
 jwt authentication
@@ -46,6 +86,11 @@ English native
 others Polish, Spanish
 Extra Cucumber, Protractor
 
-yo jhipster:entity car
+yo jhipster:entity admin
+jhipster entity admin --generate
 
-
+mklink /J c:\repo C:\Users\Cesar\.m2\repository
+rmdir c:\repo
+mvn -Dmaven.repo.local=c:\repo spring-boot:run
+./mvnw -Dmaven.repo.local=c:\repo
+./mvnw -U -Dmaven.repo.local=c:\repo
